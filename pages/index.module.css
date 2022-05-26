@@ -1,0 +1,29 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.principleTitle {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.searchInput {
+  max-width: 400px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: space-around;
+  grid-gap: 40px;
+  padding: 40px;
+}
